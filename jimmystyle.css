@@ -1,0 +1,40 @@
+body {
+	line-height: 1;
+	background-color: pink;
+	background-image: url(https://bluef00t.neocities.org/music/tmbg/TMBG14pink.png);
+	text-align: center;
+}
+
+p{
+	font-size: 110%;
+	font-family: Verdana;
+	line-height: 125%;
+	padding: 10px;
+	padding-top: 15px;
+	background-color: pink;
+	outline: 1px solid red;
+}
+
+p a{
+	color:blue;
+	text-decoration: none;
+}
+p a:hover{
+	color:purple;
+	text-decoration: underline;
+}
+
+UL{
+	font-size: 110%;
+	font-family: Verdana;
+	line-height: 125%;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-color: pink;
+	outline: 2px solid red;
+}
+
+.myClass{
+	text-align: left;
+	outline: 2px purple dashed;
+}
