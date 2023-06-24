@@ -1,7 +1,7 @@
 body {
 	line-height: 1;
-	background-color: pink;
-	background-image: url(https://sadhost.neocities.org/images/tiles/bluebrick.gif);
+	background-color: blue;
+	background-image: url(https://bluef00t.neocities.org/music/tmbg/TMBG14pink.png);
 	text-align: center;
 }
 
@@ -11,8 +11,8 @@ p{
 	line-height: 125%;
 	padding: 10px;
 	padding-top: 15px;
-	background-color: pink;
-	outline: 1px solid red;
+	background-color: purple;
+	outline: 1px solid blue;
 }
 
 p a{
