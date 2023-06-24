@@ -7,7 +7,8 @@ This stylesheet has seen a minor revamp and now has different default padding an
 body {
 	font-family: "Consolas", "Arial", sans-serif;
 	font-size: 14px;
-	background: #8dd0fb url("https://sadhost.neocities.org/images/tiles/nurple-static-bright.gif");
+	background-image: #8dd0fb url("https://sadhost.neocities.org/images/tiles/nurple-static-bright.gif");
+	background-repeat: repeat;
 	text-align: center; /*Text is centered by default.*/
 	background-size: cover;
 	background-attachment: fixed;
