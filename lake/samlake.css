@@ -1,0 +1,38 @@
+.picture {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	overflow: hidden;
+}
+
+body {
+	overflow: hidden;
+}
+
+img {
+	object-fit: scale-down;
+	scale: 40%;
+	-webkit-animation: zoomin 1920s 1;
+	animation: zoomin 1920s 1;
+}
+
+@keyframes zoomin {
+	0% {
+		-webkit-transform: scale(1);
+	}
+	100% {
+		-webkit-transform: scale(50);
+	}
+}
+
+@-webkit-keyframes zoomin {
+	0% {
+		-webkit-transform: scale(1);
+	}
+	100% {
+		-webkit-transform: scale(50);
+	}
+}
