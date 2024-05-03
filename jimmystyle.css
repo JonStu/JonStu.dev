@@ -38,8 +38,8 @@ h1 {
 	overflow: auto;
 	background-color: #fff;
 	border: 2px solid #000;
-	width: 32em;
-	height: 24em;
+	width: 48vh;
+	height: 38vh;
 	margin-top: 10.5%;
 	padding: 3.5em 4em;
 }
@@ -56,6 +56,12 @@ h1 {
 	padding-bottom: 30px;	
 	border-radius: 50%;
 	padding: 7.5em 6em;
+}
+
+.coffee {
+	display: flex;
+	align-items: end;
+	text-decoration: none;
 }
 
 /*A box that doesn't scroll, instead growing in height.*/
@@ -76,6 +82,7 @@ h1 {
 	padding: 20px;
 	padding-bottom: 30px;	
   }
+
   
 /*Prevent overflow of large images.*/
 .box img, .box-noscroll img, .box-round img {
